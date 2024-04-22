@@ -1,0 +1,56 @@
+body{
+    display: block;
+}
+
+header, section, img, aside, footer{
+    border: 1px solid black;
+}
+
+header{
+    width: 100%;
+    height: 15%;
+    float: left;
+    display: ruby;
+}
+
+.navbar{
+    list-style: none;
+    display: ruby;
+    padding-left: 50vw;
+}
+
+section{
+    width: 79%;
+    height: 70%;
+    float: left;
+}
+
+article{
+    display: ruby;
+    width: 25%;
+    height: 25%;
+}
+
+article img{
+    margin: 15px;
+}
+
+aside{
+    width: 20%;
+    height: 70%;
+    float: right;
+}
+
+footer{
+    width: 100%;
+    height: 15%;
+    float: left;
+}
+
+.footernav{
+    list-style: none;
+}
+
+.footernav li{
+    display: ruby;
+}
