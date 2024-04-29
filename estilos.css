@@ -3,7 +3,7 @@ body{
     background-color: rgb(224, 182, 147);
 }
 
-aside{
+section, aside{
     border: 1px solid black;
 }
 
@@ -13,8 +13,8 @@ header{
     float: left;
     padding-left: 10%;
     display: ruby;
-    background-color: rgb(175, 175, 175);
-    color: rgb(255, 255, 255);
+    background-color: rgb(252, 177, 117);
+    color: rgb(53, 42, 42);
 }
 
 .navbar{
@@ -22,10 +22,6 @@ header{
     display: ruby;
     padding-left: 10vw;
     vertical-align: middle;
-}
-
-a{
-
 }
 
 .buscador{
@@ -49,7 +45,7 @@ section{
     margin-left: 15%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(252, 177, 117);
+    background-color: white;
 }
 
 /* article{
@@ -67,7 +63,7 @@ aside{
     height: 70%;
     float: left;
     padding: 2%;
-    background-color: rgb(252, 177, 117);
+    background-color: white;
 }
 
 iframe.calendario{
@@ -87,8 +83,8 @@ footer{
     float: left;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(175, 175, 175);
-    color: rgb(255, 255, 255);
+    background-color: rgb(252, 177, 117);
+    color: rgb(53, 42, 42);
 }
 
 .footernav, .footernav2{

@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 
 // Dibujar el texto del título
 ctx.font = 'bold 23px Cursive';
-ctx.fillStyle = '#FFFFFF'; // Color naranja
+ctx.fillStyle = 'rgb(53, 42, 42);'; // Color naranja
 ctx.fillText('Mercería La Ilusión', 105, 70);
 
  // Dibujar el botón trasero en diagonal
