@@ -5,19 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PracticaFinalPW</title>
     <link rel="stylesheet" href="estilos.css">
+    <style>
+        canvas {
+            margin-left: -150px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h2>Mercería La Ilusion</h2>
+    <header> <canvas id="logoCanvas" width="400" height="105"></canvas>
         <ul class="navbar">
             <li>
-                <a href="">Inicio</a>
+                <a>Inicio</a>
+            </li>
+            <li> 
+                <a>Articulos</a>
+            </li>
+            <li class="buscador">
+                <input type="search" name="" id="buscador">
             </li>
             <li>
-                <a href="">Articulos</a>
-            </li>
-            <li>
-                <img src="" alt="buscador">
+                <img src="./img/usuario-de-perfil.png" alt="PERFIL" class="perfil">                
             </li>
         </ul>
     </header>
@@ -35,21 +42,51 @@
             <img src="./img/botones.PNG" alt="articulos4">
         </article>
         <article>
-            <img src="./img/botones.PNG" alt="articulos5">
+            <img src="./img/ropainterior.PNG" alt="articulos5">
+        </article>
+        <article>
+            <img src="./img/cremalleras.PNG" alt="articulos6">
+        </article> 
+        <article>
+            <img src="./img/botones.PNG" alt="articulos4">
+        </article>
+        <article>
+            <img src="./img/ropainterior.PNG" alt="articulos5">
+        </article>
+        <article>
+            <img src="./img/cremalleras.PNG" alt="articulos6">
         </article>
     </section>
     <aside>
         <p>Calendario de eventos</p>
-        <img src="" alt="calendario">
+        <iframe class="calendario" src="https://calendar.google.com/calendar/embed?src=c_a1f63a594a1fbe3508cd7001df28b215985c2c6220e3d95b49276d8e9c7b8d37%40group.calendar.google.com&ctz=Europe%2FMadrid" style="border: 0" frameborder="0" scrolling="no"></iframe>
+        <div id="map"></div>
     </aside>
     <footer>
         <ul class="footernav">
             <li>
                 <img src="" alt="icono maps">
                 <p>Dirección</p>
-            </li>
-                
+            </li>   
+            <li>
+                <img src="" alt="icono maps">
+                <p>Teléfono</p>
+            </li>     
+        </ul>
+        <ul></ul>
+        <ul class="footernav2">
+            <li>
+                <a>Políticas de Privacidad</a>
+            </li>  
+            <li>
+                <a>Políticas de Devolución</a>
+            </li> 
         </ul>
     </footer>
+    
+    <!-- Referencias a archivos JavaScript -->
+    <script src="logo.js"></script>
+    <script src="maps.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMwjj_6pBh-9HRSxBOJV1RjeZUNbduJpo&callback=iniciarMap"></script>
 </body>
 </html>

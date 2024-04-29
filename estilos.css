@@ -1,35 +1,62 @@
 body{
-    display: block;
+    margin: 0;
+    background-color: rgb(224, 182, 147);
 }
 
-header, section, img, aside, footer{
+aside{
     border: 1px solid black;
 }
 
 header{
-    width: 100%;
+    width: 90%;
     height: 15%;
     float: left;
+    padding-left: 10%;
     display: ruby;
+    background-color: rgb(175, 175, 175);
+    color: rgb(255, 255, 255);
 }
 
 .navbar{
     list-style: none;
     display: ruby;
-    padding-left: 50vw;
+    padding-left: 10vw;
+    vertical-align: middle;
+}
+
+a{
+
+}
+
+.buscador{
+    padding-left: 40vw;
+}
+
+#buscador{
+    vertical-align: middle;
+    margin-top: -80px;
+}
+
+.perfil{
+    margin-left: 30px;
+    vertical-align: middle;
+    margin-top: -80px;
 }
 
 section{
-    width: 79%;
-    height: 70%;
+    height: 100%;
     float: left;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(252, 177, 117);
 }
 
-article{
+/* article{
     display: ruby;
     width: 25%;
     height: 25%;
-}
+} */
 
 article img{
     margin: 15px;
@@ -38,19 +65,43 @@ article img{
 aside{
     width: 20%;
     height: 70%;
-    float: right;
+    float: left;
+    padding: 2%;
+    background-color: rgb(252, 177, 117);
+}
+
+iframe.calendario{
+    width: 100%;
+    height: 350px;
+}
+
+#map{
+    width: 100%;
+    height: 350px;
+    margin-top: 2%;
 }
 
 footer{
     width: 100%;
     height: 15%;
     float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(175, 175, 175);
+    color: rgb(255, 255, 255);
 }
 
-.footernav{
-    list-style: none;
+.footernav, .footernav2{
+    list-style:none;
 }
 
 .footernav li{
-    display: ruby;
+    display: ruby-text;
+    padding-bottom: 2%;
+}
+
+.footernav2 li{
+    display: ruby-text;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
