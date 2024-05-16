@@ -1,7 +1,4 @@
-body{
-    margin: 0;
-    background-color: rgb(224, 182, 147);
-}
+/* 
 
 section, aside{
     border: 1px solid black;
@@ -48,12 +45,6 @@ section{
     background-color: white;
 }
 
-/* article{
-    display: ruby;
-    width: 25%;
-    height: 25%;
-} */
-
 article img{
     margin: 15px;
 }
@@ -64,17 +55,6 @@ aside{
     float: left;
     padding: 2%;
     background-color: white;
-}
-
-iframe.calendario{
-    width: 100%;
-    height: 350px;
-}
-
-#map{
-    width: 100%;
-    height: 350px;
-    margin-top: 2%;
 }
 
 footer{
@@ -100,4 +80,63 @@ footer{
     display: ruby-text;
     padding-top: 5%;
     padding-bottom: 2%;
+} */
+
+body{
+    margin: 0;
+    background-color: rgb(145, 65, 0);
+}
+
+header{
+    padding: 0 !important;
+}
+
+iframe.calendario{
+    width: 100%;
+    height: 350px;
+}
+
+#map{
+    width: 100%;
+    height: 350px;
+    margin-top: 2%;
+}
+
+.carousel{
+    transition:  transform 2s ease, opacity .5s ease-out 
+}
+
+.mapa{
+    margin-top: -2%;
+}
+
+.card{
+    border-color: black !important;
+    box-shadow: 0 0 15px 2px;
+    width: 18rem;
+}
+
+.card:hover{
+    box-shadow: 0 0 5px 5px;
+}
+
+.columnas{
+    text-align: -webkit-center;
+}
+
+.tituloProductos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+    .columnaAside{
+        display: none;
+    }
+}
+
+footer{
+    padding: 1%;
+    border-top: 1px solid black;
+    background-color: rgb(202, 202, 202);
 }

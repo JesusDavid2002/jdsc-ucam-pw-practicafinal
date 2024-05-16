@@ -1,0 +1,5 @@
+Lo que tenemos que hacer es un CRUD (Create Read Update y Delete) SOLO y EXCLUSIVAMENTE de por así decirlo un "Carrito de compra" asociado al usuario logeado.
+Es decir tener una página .php que te muestre la lista de articulos que has seleccionado, te permita editar el número de artículos o eliminarlo directamente del carrito. 
+Que cuando compres el stock en la BBDD de ese producto se actualice. Y por último que puedas cerrar sesión de usuario. 
+
+Añadir bootstrap
