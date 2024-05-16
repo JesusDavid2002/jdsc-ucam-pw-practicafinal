@@ -30,10 +30,10 @@ ctx.arc(80, 60, 3, 0, Math.PI * 2); // Agujero inferior derecho
 ctx.fillStyle = '#FFFFFF'; // Color blanco
 ctx.fill();
 
-ctx.beginPath();
-ctx.arc(70, 50, 3, 0, Math.PI * 2);  // Agujero central
-ctx.fillStyle = '#FFFFFF'; // Color blanco
-ctx.fill();
+// ctx.beginPath();
+// ctx.arc(70, 50, 3, 0, Math.PI * 2);  // Agujero central
+// ctx.fillStyle = '#FFFFFF'; // Color blanco
+// ctx.fill();
 
 // Dibujar el botón
 ctx.beginPath();
@@ -55,10 +55,10 @@ ctx.arc(60, 60, 3, 0, Math.PI * 2); // Agujero superior derecho
 ctx.fillStyle = '#FFFFFF'; // Color blanco
 ctx.fill();
 
-ctx.beginPath();
-ctx.arc(50, 70, 3, 0, Math.PI * 2); // Agujero central
-ctx.fillStyle = '#FFFFFF'; // Color blanco
-ctx.fill();
+// ctx.beginPath();
+// ctx.arc(50, 70, 3, 0, Math.PI * 2); // Agujero central
+// ctx.fillStyle = '#FFFFFF'; // Color blanco
+// ctx.fill();
 
 ctx.beginPath();
 ctx.arc(60, 80, 3, 0, Math.PI * 2); // Agujero inferior derecho
