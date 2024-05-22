@@ -14,26 +14,26 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
+    <main class="container-fluid">
+        <nav class="row">
             <?php include_once "header.php"; ?>  
-        </div>
-        <div class="row mt-3">
-            <aside class="col-3"></aside>
-            <section class="col-4">
+        </nav>
+        <section class="row">
+            <!-- <aside class="col-md-3 col-sm-2"></aside> -->
+            <section class="col-12 carouselhome">
                 <article id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                    <h3>Mercería La Ilusión</h3>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../img/botones.PNG" class="d-block w-100" alt="Botones">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../img/cremalleras.PNG" class="d-block w-100" alt="Cremalleras">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../img/ropainterior.PNG" class="d-block w-100" alt="Ropa Interior">
-                        </div>
-                    </div>
+                    <!-- <h3 class="p-3">Mercería La Ilusión</h3> -->
+                    <figure class="carousel-inner carouselimghome">
+                        <span class="carousel-item active">
+                            <img src="../img/mostrador.PNG" class="d-block w-100 carouselimghome" alt="Mostrador">
+                        </span>
+                        <span class="carousel-item">
+                            <img src="../img/botones.PNG" class="d-block w-100 carouselimghome" alt="Cremalleras">
+                        </span>
+                        <span class="carousel-item">
+                            <img src="../img/ropainterior.PNG" class="d-block w-100 carouselimghome" alt="Ropa Interior">
+                        </span>
+                    </figure>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
@@ -42,26 +42,65 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
-                </article>
+                </article>      
+            </section>
+            <section class="col-xl-9 col-lg-11 col-md-11 col-sm-8 mt-5">
+                <h4 class="mb-5 titulosHome">MAYORES TENDENCIAS</h4>
                 <article>
-                    <h3 class="mt-3">Descripción</h3>
-                    <p>Mercería (botones, hilos, cremalleras, etc.), lencería, ropa interior y ropa infantil, tanto para hombre como para mujer y  con las mejores marcas.</p>
-                    <p><strong></strong></p>
+                    <section class="card-group gap-3 mt-3 rowCardsHome">
+                        <a href="./productos.php?categoria=ropainfantil"> 
+                            <article class="card cardHome ms-5">
+                                <div class="card-body">
+                                    <img src="../img/modainfantil1.png" class="card-img-top imgCard" alt="moda infantil">
+                                    <h5 class="card-title tituloCard">Ropa Infantil</h5>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="./productos.php?categoria=botones"> 
+                            <article class="card cardHome ms-5">
+                                <div class="card-body">
+                                    <img src="../img/botones.png" class="card-img-top imgCard" alt="moda infantil">
+                                    <h5 class="card-title tituloCard text-center">Lencería</h5>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="./productos.php?categoria=botones"> 
+                            <article class="card cardHome ms-5">
+                                <div class="card-body">
+                                    <img src="../img/botones.png" class="card-img-top imgCard" alt="moda infantil">
+                                    <h5 class="card-title tituloCard text-center">Lecería</h5>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="./productos.php?categoria=botones"> 
+                            <article class="card cardHome ms-5">
+                                <div class="card-body">
+                                    <img src="../img/botones.png" class="card-img-top imgCard" alt="moda infantil">
+                                    <h5 class="card-title tituloCard text-center">Lecería</h5>
+                                </div>
+                            </article>
+                        </a>
+                    </section>
+                    <section>
+                        <h3 class="mt-5 titulosHome">Descripción</h3>
+                        <p class="ms-5 mt-3">Mercería (botones, hilos, cremalleras, etc.), lencería, ropa interior y ropa infantil, tanto para hombre como para mujer y  con las mejores marcas.</p>
+                    </section>
                 </article>
             </section>
-            <aside class="col-3"></aside>
-            <aside class="col-2">
-                <p>Calendario de eventos</p>
-                <iframe class="calendario" src="https://calendar.google.com/calendar/embed?src=c_a1f63a594a1fbe3508cd7001df28b215985c2c6220e3d95b49276d8e9c7b8d37%40group.calendar.google.com&ctz=Europe%2FMadrid" style="border: 0" frameborder="0" scrolling="no"></iframe>
+            <aside class="col-xl-1 col-lg-0"></aside>
+            <aside class="col-xl-2 col-lg-0 columnaAside mt-3">
+                <h4 class="titulosHome">Calendario de eventos</h4>
+                <iframe class="calendario mt-2" src="https://calendar.google.com/calendar/embed?src=c_a1f63a594a1fbe3508cd7001df28b215985c2c6220e3d95b49276d8e9c7b8d37%40group.calendar.google.com&ctz=Europe%2FMadrid" style="border: 0" frameborder="0" scrolling="no"></iframe>
             </aside>
-        </div>
-        <div class="row">
+        </section>
+        <section class="row">
+            <?php include_once "mapa.php"; ?>  
             <?php include_once "footer.php"; ?>  
-        </div>
-    </div>
+        </section>
+    </main>
     
     <!-- Referencias a archivos JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>    
 </body>
 </html>

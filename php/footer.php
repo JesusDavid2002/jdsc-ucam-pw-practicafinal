@@ -1,14 +1,18 @@
+<link rel="stylesheet" href="http://localhost/jdsc-ucam-pw-practicafinal/css/estilos.css">
+
 <footer class="mt-3 ps-5">
     <ul class="nav flex-column flex-md-row">
-            <h4 class="nav-link active" aria-current="page" href="#">Dirección</h4>
-        
-            <h4 class="nav-link" href="#">Teléfono</h4>
-        
-            <h4 class="nav-link" href="#">Políticas de Privacidad</h4>
-        
-            <h4 class="nav-link"  href="#">Políticas de Devolución</h4>
-        
-        </ul>
+        <article class="nav-item d-flex">
+            <span class="nav-link active cabecerafooter" aria-current="page" href="#"><strong>Dirección:</strong></span>
+            <span class="nav-link datosfooter">Carrer Riu Glorieta, 1, 43006 Tarragona</span>
+        </article>
+        <article class="nav-item d-flex">
+            <span class="nav-link cabecerafooter" href="#"><strong>Teléfono:</strong></span>
+            <span class="nav-link datosfooter">+34 111 11 11 11</span>
+        </article>
+        <a class="nav-link cabecerafooter" href="#"><strong>Políticas de Privacidad</strong></a>
+        <a class="nav-link cabecerafooter"  href="#"><strong>Políticas de Devolución</strong></a> 
+    </ul>
 </footer>
 
 <script src="http://localhost/jdsc-ucam-pw-practicafinal/js/logo.js"></script>
