@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="http://localhost/jdsc-ucam-pw-practicafinal/css/estilos.css">
+<link rel="stylesheet" href="../css/estilos.css">
 
 <footer class="mt-3 ps-5">
     <ul class="nav flex-column flex-md-row">

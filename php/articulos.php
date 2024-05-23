@@ -27,7 +27,7 @@
                         <?php foreach ($categorias as $categoria): ?>
                             <section class="col-lg-4 col-md-6">
                                 <article class="card columnas" >
-                                    <img src="../img/<?php echo $categoria; ?>.png" class="card-img-top" alt="<?php echo $categoria; ?>">
+                                    <img src="../img/<?php echo $categoria; ?>.png" class="card-img-top imgCardArticulos" alt="<?php echo $categoria; ?>">
                                     <summary class="card-body d-flex flex-column">
                                         <h5 class="card-title"><?php echo $categoria; ?></h5>
                                         <p class="card-text">Productos de la categoría <?php echo $categoria; ?>.</p>

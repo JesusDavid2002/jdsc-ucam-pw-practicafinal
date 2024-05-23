@@ -132,7 +132,7 @@ function db_connect_ventas_usuario($user_id){
     $conn = db_connect(); 
     
     // Consulta para obtener las ventas del usuario actual
-    $sql = "SELECT ventas.id AS id, productos.nombre AS nombre_producto, ventas.cantidad AS cantidad
+    $sql = "SELECT ventas.id AS id, productos.nombre AS nombre_producto, ventas.cantidad AS cantidad, productos.precio AS precio_producto
             FROM ventas
             INNER JOIN productos ON ventas.idProducto = productos.id
             WHERE ventas.idUsuario = ?";

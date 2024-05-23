@@ -15,6 +15,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['query'])) {
     <title>Resultados de la búsqueda</title>
     <link rel="stylesheet" href="http://localhost/jdsc-ucam-pw-practicafinal/css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        canvas {
+            margin-left: -1%;
+        }
+    </style> 
 </head>
 <body>
     <main class="container-fluid">
@@ -29,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['query'])) {
                         <?php
                         if (count($productos) > 0) {
                             foreach ($productos as $producto) {
-                                echo "<section class='col-lg-4 col-md-6 columnas'>";
+                                echo "<section class='col-lg-4 col-md-6'>";
                                 echo "<article class='card articulos'>";
                                 echo "<img src='../img/imgproductos/" . ($producto['id']) . ".png' class='card-img-top' alt='" . htmlspecialchars($producto['nombre']) . "'>";
                                 echo "<summary class='card-body d-flex flex-column'>";
