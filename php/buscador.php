@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['query'])) {
             <article class="col-xl-10 col-0">
                 <section class="container">
                     <h2 class="tituloProductos">Resultados de la búsqueda para: <?php echo htmlspecialchars($query); ?></h2>
-                    <article class="row gy-3">
+                    <article class="row gy-3 rowCards">
                         <?php
                         if (count($productos) > 0) {
                             foreach ($productos as $producto) {

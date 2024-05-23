@@ -52,7 +52,7 @@
                 <article>
                     <section class="card-group gap-3 mt-3 rowCardsHome">
                         <a href="./productos.php?categoria=ropainfantil"> 
-                            <article class="card cardHome ms-5 mt-3">
+                            <article class="card cardHome ms-4 mt-3">
                                 <div class="card-body">
                                     <img src="../img/modainfantil1.png" class="card-img-top imgCard" alt="moda infantil">
                                     <h5 class="card-title tituloCard">Ropa Infantil</h5>
@@ -60,7 +60,7 @@
                             </article>
                         </a>
                         <a href="./productos.php?categoria=lenceria"> 
-                            <article class="card cardHome ms-5 mt-3">
+                            <article class="card cardHome ms-4 mt-3">
                                 <div class="card-body">
                                     <img src="../img/prueba5.png" class="card-img-top imgCard" alt="lenceria">
                                     <h5 class="card-title tituloCard text-center">Lencería</h5>
@@ -68,7 +68,7 @@
                             </article>
                         </a>
                         <a href="./productos.php?categoria=botones"> 
-                            <article class="card cardHome ms-5 mt-3">
+                            <article class="card cardHome ms-4 mt-3">
                                 <div class="card-body">
                                     <img src="../img/botones.png" class="card-img-top imgCard" alt="botones">
                                     <h5 class="card-title tituloCard text-center">Botones</h5>
@@ -76,7 +76,7 @@
                             </article>
                         </a>
                         <a href="./productos.php?categoria=cremalleras"> 
-                            <article class="card cardHome ms-5 mt-3">
+                            <article class="card cardHome ms-4 mt-3">
                                 <div class="card-body">
                                     <img src="../img/cremalleras.png" class="card-img-top imgCard" alt="cremalleras">
                                     <h5 class="card-title tituloCard text-center">Cremalleras</h5>
