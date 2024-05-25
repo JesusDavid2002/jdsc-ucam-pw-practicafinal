@@ -14,6 +14,6 @@
     session_unset(); 
     session_destroy();
 
-    header("Location: http://localhost/jdsc-ucam-pw-practicafinal/php/login.php");
+    header("Location: ../php/login.php");
     exit;
 ?>

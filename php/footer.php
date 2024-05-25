@@ -15,6 +15,6 @@
     </ul>
 </footer>
 
-<script src="http://localhost/jdsc-ucam-pw-practicafinal/js/logo.js"></script>
-<script src="http://localhost/jdsc-ucam-pw-practicafinal/js/maps.js"></script>
+<script src="../js/logo.js"></script>
+<script src="../js/maps.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMwjj_6pBh-9HRSxBOJV1RjeZUNbduJpo&callback=iniciarMap"></script>

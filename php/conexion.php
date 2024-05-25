@@ -156,6 +156,7 @@ function db_connect_ventas_usuario($user_id){
 }
 ?>
 
+<!-- Buscador de productos -->
 <?php 
     function buscar_productos($query) {
         $conn = db_connect();
@@ -178,6 +179,7 @@ function db_connect_ventas_usuario($user_id){
     }
 ?>
 
+<!-- Actualización de cesta de productos -->
 <?php 
 function update_quantity($venta_id, $action) {
     $conn = db_connect();
@@ -197,6 +199,7 @@ function update_quantity($venta_id, $action) {
 }
 ?>
 
+<!-- Borrar productos de cesta -->
 <?php 
 function delete_product($venta_id) {
     $conn = db_connect();
@@ -211,6 +214,7 @@ function delete_product($venta_id) {
 }
 ?>
 
+<!-- Confirmación de compra y borrar todos los productos de la cesta -->
 <?php 
 function confirm_purchase($user_id) {
     $conn = db_connect();

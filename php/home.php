@@ -51,10 +51,10 @@
                 <h4 class="mb-5 titulosHome">MAYORES TENDENCIAS</h4>
                 <article>
                     <section class="card-group gap-3 mt-3 rowCardsHome">
-                        <a href="./productos.php?categoria=ropainfantil"> 
+                        <a href="./productos.php?categoria=Ropa Infantil"> 
                             <article class="card cardHome ms-4 mt-3">
                                 <div class="card-body">
-                                    <img src="../img/modainfantil1.png" class="card-img-top imgCard" alt="moda infantil">
+                                    <img src="../img/ropa infantil.png" class="card-img-top imgCard" alt="moda infantil">
                                     <h5 class="card-title tituloCard">Ropa Infantil</h5>
                                 </div>
                             </article>
@@ -62,7 +62,7 @@
                         <a href="./productos.php?categoria=lenceria"> 
                             <article class="card cardHome ms-4 mt-3">
                                 <div class="card-body">
-                                    <img src="../img/prueba5.png" class="card-img-top imgCard" alt="lenceria">
+                                    <img src="../img/lenceria1.png" class="card-img-top imgCard" alt="lenceria">
                                     <h5 class="card-title tituloCard text-center">Lencería</h5>
                                 </div>
                             </article>

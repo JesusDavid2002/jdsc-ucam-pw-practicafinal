@@ -4,7 +4,7 @@
 
     // Verifica que el usuario esté logueado
     if (!isset($_SESSION['user_id'])) {
-        echo "<script>alert('Debes estar logueado para insertar un producto en la cesta.'); window.location.href='http://localhost/jdsc-ucam-pw-practicafinal/php/login.php';</script>";
+        echo "<script>alert('Debes estar logueado para insertar un producto en la cesta.'); window.location.href='../php/login.php';</script>";
         exit;
     }
 
@@ -15,5 +15,5 @@
     $producto_id = $_POST['producto_id'];
     
     $result = db_connect_ventas($user_id, $producto_id, 1);
-    echo "<script>alert('" . $result . "'); window.location.href='http://localhost/jdsc-ucam-pw-practicafinal/php/articulos.php" . urlencode($_GET['categoria']) . "';</script>";
+    echo "<script>alert('" . $result . "'); window.location.href='../php/articulos.php" . urlencode($_GET['categoria']) . "';</script>";
 ?>
